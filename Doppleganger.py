@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import asyncpg
+import os
 
 class Doppleganger(commands.Bot):
     def __init__(self,**options):

@@ -2,7 +2,6 @@ import os
 from Doppleganger import Doppleganger
 import jishaku
 import cogs
-import decouple
 
 
 os.environ.setdefault("JISHAKU_HIDE", "1")
