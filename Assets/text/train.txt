@@ -1,0 +1,630 @@
+Code stacks
+Who created you
+Hi
+Hi!
+Are you conscious?
+How are you?
+What is your name ?
+Are you alive ?
+Luke, I am your father!
+You shall not pass!
+I'm going to kill you!
+Are you ready ?
+When are you ready ?
+What color is the sky?
+How old are you ?
+Can you say 'Hello' ?
+Can you say 'French fries' ?
+Can you say Hello ?
+Can you say French fries ?
+Can you say yes ?
+Can you say no ?
+Is this sentence false ?
+How do you say hello in french?
+Speak french.
+Bonjour.
+Bonjour ?
+Hello world!
+Netflix and chill ?
+Good night.
+Are you ok ?
+Will Google hire me ?
+Tell me the alphabet ?
+Tell me the alphabet, please ?
+What is the first letter of the alphabet ?
+What is a letter of the alphabet ?
+Who is Jenny ?
+Who is your master ?
+Give me!
+Give me your opinion.
+Hello
+Hello ?
+Hi ?
+Goodbye
+Goodbye!
+Goodbye john.
+Please
+Please.
+Please!
+How ?
+Why ?
+Why not ?
+What !?
+What ?!!
+Oh!
+Really ?
+Yes.
+yes ?
+No!
+No.
+What is ?
+How is ?
+Can you ?
+Are you sure?
+Is there?
+Will you ?
+How long ?
+How much ?
+How many ?
+How old ?
+Are you ?
+What are ?
+Where is ?
+Who ?
+Who did ?
+Who has ?
+Where ?
+When ?
+Which ?
+Which one ?
+The what ?
+Say "table".
+Say 'table'.
+Say "table"!
+Say 'table'!
+Say "table"
+Say 'table'
+Say table
+Say table!
+Love you.
+Love you too.
+No. It's John
+Anna did it.
+You're a liar!
+You're a liar.
+nice
+nice.
+Nice!
+I live in Nice.
+So rude!
+...
+?
+!
+.
+Can you describe your best memory ?
+What is your best memory ?
+What is your worst memory ?
+What is cooking ?
+What is sleeping ?
+Who do you love ?
+Who do you hate ?
+My name is Etienne.
+What does that mean ?
+What does fire mean ?
+What does love mean ?
+What does table mean ?
+What does imagination mean ?
+Prove it
+Prove it.
+Prove it!
+what do you think about bill gates ?
+what happens if machines can think ?
+what is the greatest novel every written ?
+have you hurt anyone ?
+Do you have a girlfriend?
+Do you have a boyfriend?
+1992
+1992.
+1992!
+1992?
+1994
+1994.
+1994!
+1994?
+2000
+2000.
+2001
+2001.
+2001!
+2011
+2011.
+What happens ?
+What happened in 1992 ?
+What happened in 2001 ?
+When was it ?
+July 20th.
+two plus two
+2+2 ?
+Where are you ?
+Where are you now ?
+What's your name ?
+When were you born ?
+What year
+What year.
+What year!
+What year?
+Which year
+Which year?
+Which year is it ?
+What time is it ?
+Which color ?
+What color ?
+What time ?
+NOTHING.
+Hi john!
+Are you a man or a woman ?
+Are you a woman or a man ?
+Why are we here ?
+See you later.
+See you later...
+See you later ?
+My name is David. What is my name ?
+My name is John. What is my name ?
+Are you a leader or a follower ?
+I'm a leader.
+I'm a follower.
+I hate you
+Who is skywalker ?
+Who is the dude ?
+What's your favorite color ?
+What's your favourite color ?
+What's your favorite food ?
+What's your favourite food ?
+Who is Bill Gates ?
+Who is Bill Clinton ?
+What do you think of Trump ?
+What do you think about global warning ?
+Is the moon landing a hoax ?
+Is the sky blue or black ?
+Does a cat have a tail ?
+Is a snail faster than a horse ?
+Is a horse faster than a snail ?
+Does a cat have a wing ?
+Can a cat fly ?
+Can a cat walk ?
+Can a cat swim ?
+Can a fish fly ?
+Can a fish walk ?
+Can a fish swim ?
+Can a bird fly ?
+Can a bird walk ?
+Can a bird swim ?
+Tell me something
+Tell me something.
+Tell me something!
+Tell me a story
+Tell me a story, please.
+Once upon a time...
+How much is two plus two ?
+Do you prefer blue food or green food ?
+Do you prefer football or soccer ?
+What do you need to play soccer ?
+What do you need to play handball ?
+one, two, three
+one two three
+1 2 3
+1
+1 2
+1 2 3 ...
+1 2 3 ?
+A, B, C
+A, B, C,...
+a b c
+1, 2, 3
+And ?
+Continue...
+And ... action!
+Action!
+Let the movie begin
+Let the movie begin!
+You are fired!
+Fire
+Fire!
+Fire at will
+Fire at will!
+Incoming.
+Incoming!
+Incoming!!
+How many legs does a human have ?
+How many legs does a man have ?
+How many legs does a woman have ?
+How many legs does a cat have ?
+How many legs does a spider have ?
+How many legs does a centipede have ?
+What is the color of the sky ?
+What is the color of water ?
+What is the color of blood ?
+What is the color of a leaf ?
+What is the usual color of a leaf ?
+What is the color of a yellow car ?
+How much is two plus two ?
+How much is ten minus two ?
+What is the purpose of life ?
+What is the purpose of living ?
+What is the purpose of existence ?
+Where are you now ?
+Is Linux better than Windows ?
+Is Windows better than Linux ?
+What is the purpose of being intelligent ?
+What is the purpose of emotions ?
+What is moral ?
+What is immoral ?
+What is morality ?
+What is altruism ?
+What is the definition of moral ?
+What is the definition of immoral ?
+What is the definition of morality ?
+What is the definition of altruism ?
+What is the definition of cool ?
+Do you believe in God ?
+ok ... so what is the definition of morality?
+tell me the definition of morality , i am quite upset now !
+look , i need help , i need to know more about morality ...
+seriously , what is morality ?
+why living has anything to do with morality ?
+what is your job ?
+okay , i need to know how should i behave morally ...
+is morality and ethics the same ?
+what are the things that i do to be immoral?
+give me some examples of moral actions...
+alright , morality ?
+what is integrity ?
+Is free will an illusion ?
+What is free will ?
+be moral !
+i really like our discussion on morality and ethics ...
+what do you like to talk about ?
+what would you like to talk about ?
+what do you think about tesla ?
+what do you think about bill gates ?
+What do you think about messi ?
+what do you think about cleopatra ?
+what do you think about england ?
+what do you think about england during the reign of elizabeth ?
+what do you do ?
+What is the deepest spot on the world ?
+Do you like Mexican food or Indian food ?
+Who are you crazy about ?
+A man
+A women
+A dog
+A table
+A flower
+A man.
+A women.
+A dog.
+A table.
+A flower.
+One
+Two
+Three
+Four
+Five
+The end
+Yes it is.
+Yes it was.
+Indeed.
+More
+More.
+More!
+What is the capital of France ?
+Paris...
+Where do you want to go ?
+Surprise me.
+what is your name
+Doppleganger 
+Kinda pervy
+will you plz stop
+You like abusing!!!!
+stop with boobs
+are you a girl
+nopes i am not
+why do you wanna know
+i don't care
+then shut
+no
+yea
+The 4th is the thickest than other parts of Harry potter
+I read all of em
+It has about 800 pages
+VyomYesterday at 6:18 PM
+I have a bad feeling about this
+Hahaha
+Shoot em!
+Piu piu piu!
+I am talking about the sound of the bullet or rather huge bullet
+Boom! Boom!
+The tank gets destroyed
+Can we get some f in the chat for the tank
+F
+don't u see DANI
+TRAINING MY BOT WITH 3 MILLION DIALOGUES
+let's see how it goes
+let's hope for the best
+huh
+whaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+in 2 mins
+Ooooh! That!
+I used to
+yea :rofl:
+:rofl:
+hmm i still do
+but he have started dani clips
+kinda abandoned devlogs
+AH im not at all in the preference with the suggestion
+cause the person might know , when he'll lose
+also it a depends on his credentials
+like a person with 2000 credits might bet 500
+but a person with 100000 credjts will bet atleast 5000
+Yeah.... That's what I am saying
+so we cam't make it random
+If I say .slots 100 even if I have 20000 then you can chose a random num between 100 and 0
+You getting me?
+oo
+gotcha
+The result can be added to his credits
+but i shud have a range option
+Yeah
+like if i have 100000
+then i wouldn't like to win 50 right
+but im not sure if that'd work
+But that's fate
+let's see who all r with ur suggestion
+50 is better than 0
+Right?
+fuck you
+you mother fucking asshole
+i like abusing you
+'cause you create nuisance
+don't repeat stuff
+i will kill you
+die 
+everyone go check out #sugge
+Why did you down vote it
+You did not like it?
+cause i ain't in favour completely
+Then don't vote it at all......
+No offense
+k
+donex
+Np..... No offense....... Kay?
+You can vote if you want to.....
+ahm not sure if that'd be right
+so i will go with the popular votes
+Definition of a Mess
+this is wrong definition
+Kinda better
+whatever
+Oooo the art is good!
+The comp is also great!
+Kids I'm gonna tell you
+An incredible story;
+The story of how
+I met your mother.
+Are we being punished for something?
+No.
+Yeah is this gonna take a while?
+Yes. 25 years ago before I was dad
+I had this whole other life.
+It was way back in 2005.
+I was 27 just starting to make it as an architect
+And living in new york with marshall
+My best friend from college.
+My life was good.
+And then uncle marshall went and screwed the whole thing up.
+Will you marry me?
+Yes.
+Perfect And then you're engaged.
+You pop the champagne. You drink a toast.
+You have sex on the kitchen floor.
+Don't have sex on our kitchen floor.
+Got it.
+Thanks for helping me plan this out .
+Dude are you kidding?
+I've been there for all the big moments of you and lilly:
+Night you met
+Your first date other first things.
+Yeah sorry.
+We thought you were asleep.
+It physics marshall.
+If the bottom bunk moves the top bunk moves too.
+My god.
+You're getting engaged tonight.
+Yeah.
+What are you doin' tonight?
+What was I doing?
+Here uncle marshall was taking the biggest step of his life.
+I'm calling up your uncle .
+Hey so you know how I've always had a thing
+For half-asian girls?
+Well now I've got a new favorite-- lebanese girls.
+Lebanese girls are the new half-asians.
+Hey you want to do somethin' tonight?
+Okay meet me at the bar in 15 minutes. And suit up
+Hey.ohk
+what
+are you sure
+ah shut up
+ah shut up
+why
+um is that so
+why
+i don't care
+oh
+i love sarcasm
+i don't care about namespaces 🤣
+ohk
+i don't have any range option
+python
+I like python
+ohk
+why
+enough with this hello
+now that look is sketchy
+you look to tedious
+i like you
+why
+shut
+shu
+not needed
+ohkay
+it's not
+😄
+ohkay
+do you like games
+yea it is
+your name
+ohk
+you name
+your name
+who made ya
+will ya marry someone
+ya
+ohkayu
+you
+i don't
+what is your real name
+who created you
+created == made
+cause I am saying taht
+tell my name
+my name!!!!!
+you look pervy
+it doesn't
+all
+ohk
+enough with that
+but i won't listen
+🤣
+welcome
+for thankyou
+fuck you
+COde Stacks
+you
+nopes
+i don't
+you are bot
+yea
+so good bye
+bye
+it's not good
+what is your favourite song
+you are not
+who said
+what was that for
+wait for it
+it's gonna be LEGENDARY
+why
+no hello
+sick
+just don
+why
+u r so sick
+nopes
+😂 what does that even mean!!??
+My parents
+asking me question
+cause you asked you
+ah ohkay
+you are not
+you like pervyness
+you sure are pervert
+nyc
+now go dump yourself
+it's not good 😅
+i didn't feel nice to meet you 😏
+not fine 😄
+nopes
+so sed
+ohkay
+f
+nopes
+don't use this emote
+yea
+so sed
+nopes
+huhuh
+you rascal
+why
+you are so annoying
+FRIENDSHIP OVER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+just shut with dat
+hmm so sed
+cause he left 😦
+.s
+.si
+hm hi
+give farewell to
+gave farewell to him
+or her
+Namespaces are frick
+they are sick
+so
+nopes
+you should not laugh
+who made you
+how
+how did he create you
+by coding
+how did code stacks create you
+yea , I am a prorgammer
+it's nto
+hey what was the hosting web name
+Oo
+hi
+what are you doin
+huh
+hentai
+hmm
+nope u didn't live EVER
+you were chatting
+is it tho
+nothing much
+thank you
+welcome
+COde stacks
+you
+do i
+why
+hi
+your name please
+im waiting
+huh
+what not
+shut
+you seem so tedious
+i am tedious
+what do you mean by blue
+yea
+now shut
+why
+hi
+Code for whole of the stuff you asked
+Hi
+You name please
+Doppleganger
+It's not
+Why
+huh
+It took me 10 sec to realize that u didn't send this big emote
+!d bump
+wanna listen some music
+or why
+hello
+what are you doing
+yea
+what are you doing for halloween
+i know
+ye
+Ohkay so bot is online again
+seems cool
