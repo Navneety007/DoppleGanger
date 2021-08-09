@@ -195,7 +195,6 @@ class Events(commands.Cog):
         channelid = await self.bot.pg_con.fetchrow("SELECT mainchannel FROM guild WHERE guildid = $1",guildid)
         if channelid[0] is None:
             return
-        welcome = Image.open('welcome.png')
         to = f"To {member.guild.name.title()}"
         if len(to)>19:
             to = f"{to[:19]}.."
