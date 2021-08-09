@@ -21,4 +21,4 @@ Irl Economy commands made with Image local/global leaderboards and bewildering c
 ### Fun Commands
 
 Fun commands like beer, coffee, roast, kill, topic to engage with people and have Fun!
-<img src = "https://imgur.com/nrjHkvz">
+<img src = "https://i.imgur.com/nrjHkvz.png">
