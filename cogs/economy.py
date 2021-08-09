@@ -462,7 +462,7 @@ New Balance: **{credits}**
         elif item in randomitem:
             amount = random.randint(250,550)
         else:
-            await ctx.send(embed = discord.Embed(title = "Was that a Typo",description = f"Probably you mispelled {item.replace9(':','')} \nYou can go to your inventory (`.inven`) and click the item to know it's name",color = discord.Colour.red()))
+            await ctx.send(embed = discord.Embed(title = "Was that a Typo",description = f"Probably you mispelled {item.replace(':','')} \nYou can go to your inventory (`.inven`) and click the item to know it's name",color = discord.Colour.red()))
         
         
         if item in inventory:
