@@ -56,9 +56,10 @@ class Economy(commands.Cog):
 
     async def plus(self,id,name):
         data = await self.bot.pg_con.fetchrow("SELECT inventory FROM users WHERE userid = $1",id)
-        data = data[0]
-        if data is None:
+        if not data:
             data = []
+        else:
+            data = data[0]
         data.insert(0,name)
         await self.bot.pg_con.execute("UPDATE users SET inventory = $1 WHERE userid = $2 ",data,id)
 
@@ -227,7 +228,7 @@ New Balance: **{credits}**
     @commands.Cog.listener()
     async def on_ready(self):  
         yo = "haha"
-        #await self.picking.start()
+        await self.picking.start()
 
     
     @tasks.loop(seconds=4000)
