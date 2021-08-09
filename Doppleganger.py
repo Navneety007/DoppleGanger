@@ -27,6 +27,5 @@ class Doppleganger(commands.Bot):
 
     
     async def create_db_pool(self):
-        #self.pg_con = await asyncpg.create_pool(database = "Code Stacks",user = "postgres",password = "12382692")
         self.pg_con = await asyncpg.create_pool(os.environ['DATABASE_URL'],ssl = "require")
         
