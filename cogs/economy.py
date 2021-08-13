@@ -60,6 +60,8 @@ class Economy(commands.Cog):
             data = []
         else:
             data = data[0]
+            if not data:
+                data = []
         data.insert(0,name)
         await self.bot.pg_con.execute("UPDATE users SET inventory = $1 WHERE userid = $2 ",data,id)
 
