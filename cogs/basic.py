@@ -53,7 +53,39 @@ class Basic(commands.Cog):
         await self.add(ctx.author.id,-200)
         await self.add(member.id,200)
         await ctx.send(embed=em)
-
+    
+    @commands.command(aliases = ['section','rolename'])
+    async def searchrole(self,ctx,*,role_name):
+        """Search role by name"""
+        role = discord.utils.get(ctx.guild.roles, name = role_name)
+        if not role:
+            return await ctx.send(f"No role found with name `{role_name}`, make sure to spell it correctly")
+        members = []
+        for i in ctx.guild.members:
+            if role in i.roles:
+                members.append(i)
+        times = (len(members)//20)+1
+        start_with = 1
+        end_with = 21
+        
+        for i in range(times):
+            if end_with>len(members) and i==0:
+                names = "\n".join([f"`{i.name}` : {i.mention}" for i in members[0:]])
+            elif end_with>len(members):
+                names = "\n".join([f"`{i.name}` : {i.mention}" for i in members[start_with:]])
+            else:
+                if i==0:
+                    names = "\n".join([f"`{i.name}` : {i.mention}" for i in members[0:end_with]])
+                else:
+                    names = "\n".join([f"`{i.name}` : {i.mention}" for i in members[start_with:end_with]])
+            start_with+=20
+            end_with+=20
+            if i == 0:
+                embed = discord.Embed(title = f"Members of {role.name}",description = f"Total : `{len(members)}`\n\n{names}",color = role.color)
+            else:                                                                                 
+                embed = discord.Embed(description = names,color = discord.Color.random())
+            await ctx.send(embed = embed)
+        
 
     @commands.command()
     async def typerace(self, ctx):
