@@ -132,12 +132,26 @@ class Moderation(commands.Cog):
         """Clear chats"""
         try:
             amount = int(amount)
+            if amount>5000:
+                return await ctx.send("Cannot delete messages more than 5000",delete_after=10)
+    
             if amount < 1:
-                await ctx.send('Amount should be at least 1!!')
+                return await ctx.send('Amount should be at least 1!!')
+            if amount > 100:
+                
+                await ctx.message.reply(f"Are you sure wanna delete {amount} messages? (y/n)")
+                try:
+                    msg = await self.bot.wait_for('message',timeout = 10.0,check =lambda message: message.author == ctx.author)
+                except asyncio.TimeoutError:
+                    return await ctx.send("Recieved no answer, Aborting.....",delete_after=20)
+                else:
+                    if msg.content.lower()=="y":
+                        await ctx.channel.purge(limit = amount+3)
+                    return
             else:
-                await ctx.channel.purge(limit = amount+1)
+                return await ctx.channel.purge(limit = amount+1)
         except:
-            await ctx.send(embed = error)
+            return await ctx.send(embed = error)
 
 
 
