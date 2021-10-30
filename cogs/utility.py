@@ -13,7 +13,7 @@ class Utility(commands.Cog):
         self.colors = self.bot.colors
 
     @commands.command()
-    @bot.has_permissions(kick_user = True)
+    @commands.has_permissions(kick_user = True)
     async def setprefix(self, ctx,*,prefix='.'):
         """Set bot prefix"""
         await self.bot.pg_con.execute("UPDATE guild SET prefix = $1 WHERE guildid = $2",prefix,ctx.guild.id)
