@@ -99,8 +99,9 @@ class Moderation(commands.Cog):
                 except:
                     pass
                 await asyncio.sleep(amount)
-                await member.remove_roles(muted)
-                await ctx.send(embed=em3)
+                if muted in member.roles:
+                    await member.remove_roles(muted)
+                    await ctx.send(embed=em3)
             except:
                 await ctx.send(embed=error)
 
