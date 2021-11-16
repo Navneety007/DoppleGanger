@@ -142,7 +142,7 @@ class Fun(commands.Cog):
     @commands.command()
     async def roast(self,ctx,member:discord.Member):
         """Roast a member"""
-        if str(member)=="Code Stacks#0001":
+        if member.id==779743087572025354:
             await ctx.send("You trying to roast my owner!? give up alr baka :D")
             return
         roast = random.choice(roasts)
