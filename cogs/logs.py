@@ -1,3 +1,4 @@
+from os import name
 import discord
 from discord.ext import commands
 import random
@@ -51,10 +52,12 @@ class Logs(commands.Cog):
                 # em.add_field(name = "Old Status : ",value = f"Status : {str(before.status).upper()}")
                 # em.add_field(name = "New Status : ",value = f"Status : {str(after.status).upper()}")
                 return
+                #avoiding spam
             elif func(before) != func(after):
-                em.add_field(name = "Old Activity : ",value = f"Status : {func(before)}")
-                em.add_field(name = "New Activity : ",value = f"Status : {func(after)}")
-                pass
+                # em.add_field(name = "Old Activity : ",value = f"Status : {func(before)}")
+                # em.add_field(name = "New Activity : ",value = f"Status : {func(after)}")
+                return
+                #avoiding spam
             elif before.display_name != after.display_name:
                 em.add_field(name = "Old Nickname : ",value = f"Status : {before.display_name}")
                 em.add_field(name = "New Nickname : ",value = f"Status : {after.display_name}")
@@ -73,32 +76,31 @@ class Logs(commands.Cog):
     @commands.Cog.listener()
     async def on_message_delete(self,message):
         id = await self.bot.pg_con.fetchrow("SELECT logchannel FROM guild WHERE guildid = $1",message.guild.id)
-        if id[0] is None:
-            return
+        if not id[0]: return
+
         if message.author.bot:
             return
         log = self.bot.get_channel(id[0])
-        embed = discord.Embed(title = "Message Deleted",color = random.choice(self.colors),timestamp = datetime.datetime.utcnow())
+        embed = discord.Embed(description = f"Message Deleted in <#{message.channel.id}>",color = random.choice(self.colors),timestamp = datetime.datetime.utcnow())
         embed.add_field(name="Message",value=message.content,inline=False)
         embed.add_field(name="Author",value=message.author.name,inline=False)
-        embed.add_field(name="Channel",value=message.channel.name,inline=False)
+        embed.set_footer(text=f"User ID: {message.author.id}")
         embed.set_thumbnail(url="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/System-recycling-bin-full-icon.png")
         await log.send(embed = embed)
     
     @commands.Cog.listener()
     async def on_message_edit(self,old,new):
         id = await self.bot.pg_con.fetchrow("SELECT logchannel FROM guild WHERE guildid = $1",old.guild.id)
-        if id[0] is None:
-            return
+        if not id[0]: return
         
         if old.author.bot:
             return
         log = self.bot.get_channel(id[0])
-        embed = discord.Embed(title = "Message Edited",description = f"[Jump to the Message]({new.jump_url})",color = random.choice(self.colors),timestamp = datetime.datetime.utcnow())
-        embed.add_field(name="Old Message",value=old.content)
-        embed.add_field(name="New Message",value=new.content)
-        embed.add_field(name="Channel",value=old.channel.name,inline=False)
-        embed.add_field(name="Author",value=old.author.name,inline=False)
+        embed = discord.Embed(description = f"Message edited in <#{old.channel.id}> \n**[Jump to the Message]({new.jump_url})**",color = random.choice(self.colors),timestamp = datetime.datetime.utcnow())
+        embed.add_field(name="Old Message",value=old.content,inline=False)
+        embed.add_field(name="New Message",value=new.content,inline=False)
+        embed.set_author(name=old.author.name,url=old.author.avatar_url)
+        embed.set_footer(text=f"User ID: {old.author.id}")
         embed.set_thumbnail(url="https://th.bing.com/th/id/R66dbcbb7f70864efa5e4e8097e865a28?rik=KbhIVKRoP5CCLw&riu=http%3a%2f%2fwww.recycling.com%2fwp-content%2fuploads%2f2016%2f06%2frecycling-symbol-icon-outline-solid-dark-green.png&ehk=uUs07SqPyEepr2jBZhiGSUkO1QbzTCvEobnhAM%2fddU8%3d&risl=&pid=ImgRaw")
         await log.send(embed=embed)
 
