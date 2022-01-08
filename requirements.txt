@@ -2,10 +2,8 @@ aiohttp==3.7.4.post0
 astroid==2.6.5      
 async-timeout==3.0.1
 attrs==21.2.0       
-chardet==4.0.0      
 colorama==0.4.4     
-discord==1.7.3      
-idna==3.2
+discord==1.7.3    
 isort==5.9.2
 lazy-object-proxy==1.6.0
 mccabe==0.6.1
@@ -79,4 +77,3 @@ wonderwords==2.2.0
 xmltodict==0.12.0
 youtube-search==2.1.0
 youtube-search-python==1.4.5
-
