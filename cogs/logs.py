@@ -48,9 +48,9 @@ class Logs(commands.Cog):
                 
             em.set_author(name = after,icon_url = after.avatar_url)
             if str(before.status).upper() != str(after.status).upper():
-                em.add_field(name = "Old Status : ",value = f"Status : {str(before.status).upper()}")
-                em.add_field(name = "New Status : ",value = f"Status : {str(after.status).upper()}")
-                pass
+                # em.add_field(name = "Old Status : ",value = f"Status : {str(before.status).upper()}")
+                # em.add_field(name = "New Status : ",value = f"Status : {str(after.status).upper()}")
+                return
             elif func(before) != func(after):
                 em.add_field(name = "Old Activity : ",value = f"Status : {func(before)}")
                 em.add_field(name = "New Activity : ",value = f"Status : {func(after)}")
