@@ -13,7 +13,7 @@ toml==0.10.2
 typing-extensions==3.10.0.0
 wrapt==1.12.1
 yarl==1.6.3
-animec==0.3.3
+animec==0.4
 astunparse==1.6.3
 asyncio==3.4.3
 asyncpg==0.22.0
@@ -77,3 +77,4 @@ wonderwords==2.2.0
 xmltodict==0.12.0
 youtube-search==2.1.0
 youtube-search-python==1.4.5
+
