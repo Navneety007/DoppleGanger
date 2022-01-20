@@ -6,7 +6,7 @@ import os
 class Doppleganger(commands.Bot):
     def __init__(self,**options):
         super().__init__(
-            command_prefix = ".", 
+            command_prefix = self.determine_prefix,
             help_command=None, 
             description="Bot with amazing Economy, Profile, Guild, welcome etc. commands",
             case_insensitive = True,
@@ -18,6 +18,13 @@ class Doppleganger(commands.Bot):
         self.colors = [0x0dd2ff,0x03f5ff,0x2affa9,0x18e6ff,0x17ffc2,0x03f5ff,0x30e79d]
     
         self.loop.run_until_complete(self.create_db_pool())
+        
+    async def determine_prefix(self, bot, message):
+        guild_id = message.guild.id
+        
+        prefix = await self.pg_con.fetchrow("SELECT prefix FROM guild WHERE guildid = $1",guild_id)
+        return [prefix[0]]
+
 
     
     async def create_db_pool(self):
