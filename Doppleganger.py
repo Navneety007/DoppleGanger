@@ -6,7 +6,7 @@ import os
 class Doppleganger(commands.Bot):
     def __init__(self,**options):
         super().__init__(
-            command_prefix = self.determine_prefix,
+            command_prefix = ".",
             help_command=None, 
             description="Bot with amazing Economy, Profile, Guild, welcome etc. commands",
             case_insensitive = True,
