@@ -94,7 +94,7 @@ class Utility(commands.Cog):
     async def join(self,ctx):
         """Join our main channel or invite this bot"""
         embed = discord.Embed(title = "Invite",timestamp = datetime.datetime.utcnow(),color = random.choice(self.colors))
-        embed.add_field(name="Invite This Bot to your server",value="[Click Here to Invite](https://discord.com/api/oauth2/authorize?client_id=781737639321141268&permissions=4228906103&scope=bot)",inline=False)
+        embed.add_field(name="Invite This Bot to your server",value="[Click Here to Invite](https://discord.com/api/oauth2/authorize?client_id=781737639321141268&permissions=8&scope=bot%20applications.commands)",inline=False)
         embed.add_field(name="Join our Main Server",value="[Click Here to join](https://discord.gg/cRGWDtu3W8)",inline=False)
         embed.set_image(url=self.bot.user.avatar_url)
         embed.set_thumbnail(url = "https://i.imgur.com/j3x5FDB.png")
